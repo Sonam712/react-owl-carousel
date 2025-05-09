@@ -17,7 +17,8 @@ const settings = {
 
 const SlickCarousel = () => {
   return (
-   
+   <div>
+    <h1>Owl Carousel</h1>
     <Slider {...settings}>
       <div className="items"><h3><img src={img1} alt="food" />Food 1</h3></div>
       <div className="items"><h3><img src={img1} alt="food" />Food 1</h3></div>
@@ -39,6 +40,7 @@ const SlickCarousel = () => {
       <div className="items"><h3><img src={img1} alt="food" />Food 1</h3></div>
       <div className="items"><h3><img src={img1} alt="food" />Food 1</h3></div>
     </Slider>
+    </div>
   );
 };
 
